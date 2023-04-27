@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="short icon" href="https://www.flaticon.es/iconos-gratis/balon-de-futbol">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+
+        <form action="" class="formulario" autocomplete="off">
+            <h2 class="title"><img src="img/anonimo.png" alt=""></h2>
+
+            <div class="form_input"> 
+                <input type="text" placeholder="E-mail "id="correo" required><i class="fa-solid fa-envelope"> </i>  
+            </div>
+
+            <div class="form_input" > 
+                <input  type="password" placeholder="Contraseña" id="contrasenia" required><i class="fa-solid fa-lock"> </i>
+            </div>
+
+
+            <div class="con-button">
+                <input class="input-form" style="border:none;" type="button"id="boton" value="Ingresar" onclick="login()" value="Ingresar">
+            </div>
+            
+           
+            <div class="cajaA">
+                <div class="caja-link">
+                    <a href="CrearCuenta.html" class="linkA">Crear cuenta</a>
+
+                </div>
+                <div class="caja-link">
+                    <a href="olvCon.html" class="linkA">¿Olvisdaste tu contraseña?</a>
+
+                </div>
+                
+
+       
+        </div>
+            
+        
+    
+        </form>
+    </div>
+<script src="validacion.js"></script>
+</body>
+</html>

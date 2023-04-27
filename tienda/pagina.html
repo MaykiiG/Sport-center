@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="../img/balonn.ico">
+    <title>Document</title>
+</head>
+<body>
+  <video src="../Video/fondo2.mp4" style="z-index: -1; position: fixed; height: 100%;" type="video/mp4" autoplay muted loop class="miVideo"></video>
+    <header class="main-header"> 
+
+
+    <div class="container container--flex">
+        <div class="main-header__container">
+          <h1 class="main-header__title">SPORT CENTER</h1>
+          <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"  style="color: white;"></i></span>
+          <nav class="main-nav" id="main-nav">
+            <ul class="menu">
+              <li class="menu__item"><a href="" class="menu__link">MENU</a></li>
+              <li class="menu__item"><a href="#nosotros" class="menu__link">NOSOTROS</a></li>
+              <li class="menu__item"><a href="#fotos" class="menu__link">FOTOS</a></li>
+              <li class="menu__item"><a href="#comprar" class="menu__link">COMPRAR</a></li>
+              <li class="menu__item"><a href="#contactanos" class="menu__link">CONTACTANOS</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main-header__container">
+          <span class="main-header__txt" style="color:white;">Nesecitas ayuda </span>
+          <p class="main-header__txt" style="color:white;"><i class="fas fa-phone"></i>  Llamanos 51-930342834</p>
+        </div>
+        <div class="main-header__container">
+          <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+          <a href="" class="main-header__btn">Mi carrito  <i class="fas fa-shopping-cart"></i></a>
+          <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search" style="color:white"></i>
+        </div>
+      </div>
+    </header>
+    <div class="container-slider">
+      <div class="slider" id="slider">
+        <div class="slider__section">
+          <img src="../img/img1.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Ropa deportiva</h2>
+            <p class="slider__txt">Aprovecha el 50% de descuento!!</p>
+
+
+            <a href="#" class="btn">
+              <svg width="277" height="62">
+                <defs>
+                    <linearGradient id="grad1">
+                        <stop offset="0%" stop-color="#FF8282"/>
+                        <stop offset="100%" stop-color="#E178ED" />
+                    </linearGradient>
+                </defs>
+                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+              </svg>
+              <!--<span>Voir mes réalisations</span>-->
+                <span>COMPRAR AHORA !!</span>
+            </a>
+
+
+
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="../img/img2.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Ropa deportiva</h2>
+            <p class="slider__txt">Aprovecha el 50% de descuento!!</p>
+
+            <a href="#" class="btn">
+              <svg width="277" height="62">
+                <defs>
+                    <linearGradient id="grad1">
+                        <stop offset="0%" stop-color="#FF8282"/>
+                        <stop offset="100%" stop-color="#E178ED" />
+                    </linearGradient>
+                </defs>
+                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+              </svg>
+              <!--<span>Voir mes réalisations</span>-->
+                <span>COMPRAR AHORA !!</span>
+            </a>
+
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="../img/img3.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Ropa deportiva</h2>
+            <p class="slider__txt">Aprovecha el 50% de descuento!!</p>
+
+            <a href="#" class="btn">
+              <svg width="277" height="62">
+                <defs>
+                    <linearGradient id="grad1">
+                        <stop offset="0%" stop-color="#FF8282"/>
+                        <stop offset="100%" stop-color="#E178ED" />
+                    </linearGradient>
+                </defs>
+                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+              </svg>
+              <!--<span>Voir mes réalisations</span>-->
+                <span>COMPRAR AHORA !!</span>
+            </a>
+
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="../img/img4.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Ropa deportiva</h2>
+            <p class="slider__txt">Aprovecha el 50% de descuento!!</p>
+            <a href="#" class="btn">
+              <svg width="277" height="62">
+                <defs>
+                    <linearGradient id="grad1">
+                        <stop offset="0%" stop-color="#FF8282"/>
+                        <stop offset="100%" stop-color="#E178ED" />
+                    </linearGradient>
+                </defs>
+                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+              </svg>
+              <!--<span>Voir mes réalisations</span>-->
+                <span>COMPRAR AHORA !!</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+      <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+    <main class="main">
+      <div class="container">
+
+        <h2 class="main-title" id="comprar">New Arrivals for you</h2>
+        <section class="container-products">
+          <div class="product">
+           
+            <img src="../img/balon.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Balon Mikasa</h3>
+              <span class="product__price">$ 575.00</span><br><br>
+
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/balonMik.html"><span class="spot"></span>COMPRAR  </a>
+                  </div>
+                </svg>
+              </div>
+              
+            </div>
+           
+            
+
+          </div>
+          <div class="product">
+            <img src="../img/rodillera.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Rodillera Gray</h3>
+              <span class="product__price">$ 575.00</span><br><br>
+
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/rodilleras.html"><span class="spot"></span>COMPRAR </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+          <div class="product">
+            <img src="../img/tobillera.png" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Tobillera Gray</h3>
+              <span class="product__price">$ 575.00</span><br><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/tobilleras.html"><span class="spot"></span>COMPRAR </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+          <div class="product">
+            <img src="../img/guantes.png" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Guantes Orbit</h3>
+              <span class="product__price">$ 325.00</span> <br><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/guantes.html"><span class="spot"></span>COMPRAR  </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="product">
+            <img src="../img/raqueta.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Raqueta</h3>
+              <span class="product__price">$ 325.00</span><br><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/raqueta.html"><span class="spot"></span>COMPRAR  </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="product">
+            <img src="../img/trofeo.jpg" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Trofeo de la copa del mundo</h3>
+              <span class="product__price">$ 325.00</span><br><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/trofeo.html"><span class="spot"></span>COMPRAR  </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="product">
+            <img src="../img/balon.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Balon de basquet Mikasa</h3>
+              <span class="product__price">$ 325.00</span><br><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/balonBasq.html"><span class="spot"></span>COMPRAR  </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+           
+          </div>
+
+          <div class="product">
+            <img src="../img/portabalones.png" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Portabalones</h3>
+              <span class="product__price">$ 325.00</span><br><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/portab.html"><span class="spot"></span>COMPRAR   </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="product">
+            <img src="../img/inflador.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Inflador Oval</h3>
+              <span class="product__price">$ 325.00</span><br><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/inflador.html"><span class="spot"></span>COMPRAR   </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="product">
+            <img src="../img/aroBasquet.png" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Aro de basquet</h3>
+              <span class="product__price">$ 325.00</span><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/aroDb.html"><span class="spot"></span>COMPRAR    </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="product">
+            <img src="../img/barometro.png" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Barometro Oval</h3>
+              <span class="product__price">$ 325.00</span><br><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/barometro.html"><span class="spot"></span>COMPRAR   </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="product">
+            <img src="../img/mangas.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Mangas Oval</h3>
+              <span class="product__price">$ 325.00</span><br><br>
+              <div class="svg-wrapper">
+                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="150" />
+                  <div id="text">
+                    <a href="../productos/mangas.html"><span class="spot"></span>COMPRAR   </a>
+                  </div>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+
+
+
+
+        </section>
+        <section class="container__testimonials" id="nosotros">
+          <h2 class="section__title">Nuestra prioridad</h2>
+          <h3 class="testimonial__title"></h3>
+          <p class="testimonial__txt">El uso de ropa adecuada te permitirá protegerte de algunas lesiones, nuestra prioridad es ofrecerte productos con la mas alta calidad.</p>
+        </section>
+      
+        <div class="container-editor" id="fotos">
+          <div class="editor__item">
+            <img src="../img/depor.jpg" alt="" class="editor__img">
+            <p class="editor__circle">EXPRESA TU ESTILO</p>
+          </div>
+          <div class="editor__item">
+            <img src="../img/depor2.png" alt="" class="editor__img">
+            <p class="editor__circle">EXPRESA TU ESTILO</p>
+          </div>
+        </div>
+        <section class="container-tips">
+          <div class="tip">
+            <i class="fa-solid fa-socks"></i>
+            <h2 class="tip__title">COMODIDAD</h2>
+            <p class="tip__txt"> </p>
+            
+          </div>
+          <div class="tip">
+            <i class="fa-solid fa-shirt"></i>
+            <h2 class="tip__title">ESTILO</h2>
+            <p class="tip__txt"></p>
+            
+          </div>
+          <div class="tip">
+            <i class="fa-solid fa-handshake"></i>
+            <h2 class="tip__title">GARANTIA</h2>
+            <p class="tip__txt"></p>
+
+
+
+
+
+            
+
+
+
+
+
+          </div>
+        </section>
+      </div>
+
+
+    </main>
+    <footer class="main-footer" id="contactanos">
+      <div class="footer__section">
+        <h2 class="footer__title">Sobre nosotros</h2>
+        <p class="footer__txt">Diseñamos ropa específicamente creada para la práctica de deporte, tanto por los materiales y 
+          tecnologías empleadas como por el diseño, proporcionando al deportista comodidad, seguridad y un mayor rendimiento.</p>
+      </div>
+      
+      <div class="footer__section">
+        <h2 class="footer__title">Localizacion :</h2>
+        <p class="footer__txt">Senati-Independencia</p>
+        <h2 class="footer__title">Contactanos : </h2>
+        <p class="footer__txt">Phone : +51 930342834</p>
+        <p class="footer__txt">Email : maycol_456@hotmail.es</p>
+      </div>
+      
+      <div class="footer__section">
+        <h2 class="footer__title">¿Necesitas ayuda?</h2>
+       
+        <a href="" class="footer__link">Reporta tu caso</a>
+        <textarea name="" class="textarea" id="" cols="30" rows="10"></textarea>
+        
+      </div>
+      
+      <div class="footer__section">
+        <h2 class="footer__title">Envianos un correo</h2>
+        <p class="footer__txt">Ponte en comunicacion con nosotros a travez de un e-mail para un pedido,reporte,sugerencia,etc</p>
+        <input type="email" class="footer__input" placeholder="Ingresa tu e-mail">
+      </div>
+      <p class="copy">© 2021 RopaDeportiva. Todos los derechos reservados ||  Diseñado por mi xd</p>
+      
+    </footer>
+  <!-- </footer>, initial-scale=1.0"> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
